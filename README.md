@@ -33,3 +33,19 @@ while ( *v42 );
 Argument format: \<string\> \<type\> \<key\> </br>
 Types: r == ROL, x == XOR </br>
 String should be surrounded by quotes for safety.
+
+### ROL decryption example
+```
+c:>vac "(\x8C\xCE,\x0E-fF\xC5\x8C\x8D\x8D" r 3
+RESULT: "Advapi32.dll"
+```
+
+### XOR decryption example
+```
+c:>vac "hRtCGBpOTRSGJkCKIT_" x 38
+RESULT: "NtReadVirtualMemory"
+```
+
+
+
+
