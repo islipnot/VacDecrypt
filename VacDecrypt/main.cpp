@@ -37,9 +37,9 @@ int main(int argc, char* argv[])
     if (argc == 1)
     {
         std::cout << "Argument format: <string> <type> <key>\n";
-        std::cout << "Types: r == ROR, x == XOR\n";
+        std::cout << "Types: r == ROL, x == XOR\n";
         std::cout << "String should be surrounded by quotes for safety\n";
-        return 1;
+        return 0;
     }
 
     // Formatting input
